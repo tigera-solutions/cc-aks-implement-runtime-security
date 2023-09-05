@@ -52,17 +52,13 @@ The estimated time to complete this workshop is 60-90 minutes.
 ## Modules
 
 This workshop is organized in sequential modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
- 
-Module 1 - [Getting Started](/modules/module-1-getting-started.md)  
-Module 2 - [Deploy an Azure AKS cluster](/modules/module-2-deploy-aks.md)  
-Module 3 - [Connect the Azure AKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  
 
 Module 1 - [Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
-Module 4 - [Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
-Module 5 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  
-Module 6 - [Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  
-Module 7 - [Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md)  
-Module 8 - [Clean up](/modules/module-8-clean-up.md)  
+Module 2 - [Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)  
+Module 3 - [Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  
+Module 4 - [Detect Zero-Day Attacks with Threat Defence](/mod/module-4-threat-defence.md)  
+Module 5 - [Quarantine Infected Workloads and KSPM](/mod/module-5-quarantine-kspm.md)  
+Module 6 - [Clean up](/mod/module-6-clean-up.md)  
 
 --- 
 

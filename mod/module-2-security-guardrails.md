@@ -1,4 +1,4 @@
-# Module 4 - Implement zero-trust access controls and micro-segmentation
+# Module 2 - Implement zero-trust access controls and micro-segmentation
 
 Calico provides methods to enable fine-grained access controls between your microservices and external databases, cloud services, APIs, and other applications protected by a firewall. You can enforce controls from within the cluster using DNS egress policies from a firewall outside the cluster using the egress gateway. Controls are applied on a fine-grained, per-pod basis.
 
