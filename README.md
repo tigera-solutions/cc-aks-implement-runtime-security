@@ -1,12 +1,14 @@
-# Microsoft Azure: Hands-on AKS workshop </br> Detect and block container and network-based attacks in AKS
+# Workshop: Microsoft AKS Security Bootcamp: </br> Implement runtime security
 
 ## Welcome
 
-In this AKS-focused workshop, you will work with Microsoft Azure and Calico Cloud to learn how to design and deploy best practices to secure your Kubernetes environment, detecting and blocking container and network-based attacks.
+In this AKS-focused workshop, you will work with Microsoft Azure and Calico Cloud to learn how to protect containers in your Kubernetes cluster from known and zero-day threats based container and network attacks running on Microsoft AKS.
 
-Cloud-native applications require a modern approach based on the zero-trust principles of identity-based access, least privilege access, and proactively detecting threats and reducing the blast radius in case of a breach.
+In an increasingly interconnected and digital world, the security of your AKS Kubernetes clusters is non-negotiable. This workshop equips you with the knowledge and skills to fortify your cluster's defenses comprehensively, ensuring the protection of critical workloads and sensitive data. It empowers you to customize security measures to fit your organization's unique requirements and keeps you ahead of the curve in a rapidly evolving cybersecurity landscape.
 
-Calico Cloud enables fine-grained, zero-trust workload access controls between your microservices and external databases, cloud services, APIs, and other applications. It also prevents the lateral movement of threats with identity-aware segmentation that works across your workload environments, including hosts, VMs, Kubernetes components, and services.
+Cybersecurity expertise is in high demand and mastering the art of securing Kubernetes environments is a valuable skill set. Whether you're an IT administrator, developer, or security professional, the insights gained in this workshop will enhance your proficiency and make you an invaluable asset to your organization. Additionally, by proactively implementing robust security practices, you can save your organization from potential financial losses and reputational damage that can result from security breaches. 
+
+Don't miss this opportunity to bolster your security knowledge, protect your infrastructure, and advance your professional journey.
 
 You will come away from this workshop with an understanding of how others in your industry are securing and observing cloud-native applications in Microsoft Azure, along with best practices that you can implement in your organization.
 
@@ -24,11 +26,28 @@ The estimated time to complete this workshop is 60-90 minutes.
 
 ### Learning Objectives
 
-1. Review and customize security guardrails for network-based threats
-2. Configure IDS/IPS, workload-centric WAF, and DDoS protection
-3. Detect zero-day attacks based on suspicious container activity using syscalls, file access, and process information 
-4. Preview and enforce security policies to quarantine infected workloads
-5. Visualize the security posture of your Kubernetes cluster 
+1. **Customize Security Guardrails**: Discover how to customize security guardrails to fortify your network against various threats, ensuring a tailored defense strategy for your specific needs.
+2. **Configure IDS/IPS and WAF**: Dive into the configuration of Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and workload-centric Web Application Firewalls (WAFs) to safeguard your cluster from network-based threats.
+3. **Zero-Day Attack Detection**: Learn how to detect zero-day attacks by monitoring suspicious container activity, enabling you to proactively respond to emerging threats.
+4. **Security Policy Enforcement**: Preview and enforce security policies to quarantine infected workloads, preventing the spread of threats within your Kubernetes environment.
+5. **Visualize Security Posture**: Learn how to effectively visualize the security posture of your Azure AKS cluster, allowing you to identify potential vulnerabilities and weaknesses.
+
+## Workshop Environment Preparation
+
+> :warning: **For this workshop, you are expected to have access to a previously created AKS cluster.**
+
+- Please, follow the instructions on the repository below if you don't have it ready: 
+
+  [Calico Cloud on AKS - Workshop Environment Preparation](https://github.com/tigera-solutions/aks-workshop-prep)
+
+- We will run this workshop from the Azure Cloud Shell, as described in that repository.
+
+- To start your cluster, reload the environment variables create in your Azure Cloud Shell first and then start the cluster. Use the following command:
+
+  ```bash
+  source ~/workshopvars.env
+  az aks start --resource-group $RESOURCE_GROUP --name $CLUSTERNAME
+  ```
 
 ## Modules
 
@@ -37,6 +56,8 @@ This workshop is organized in sequential modules. One module will build up on to
 Module 1 - [Getting Started](/modules/module-1-getting-started.md)  
 Module 2 - [Deploy an Azure AKS cluster](/modules/module-2-deploy-aks.md)  
 Module 3 - [Connect the Azure AKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  
+
+Module 1 - [Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
 Module 4 - [Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
 Module 5 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  
 Module 6 - [Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  
