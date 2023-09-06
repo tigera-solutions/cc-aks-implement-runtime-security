@@ -26,8 +26,8 @@ The estimated time to complete this workshop is 60-90 minutes.
 
 ### Learning Objectives
 
-- **Customize Security Guardrails**: Discover how to customize security guardrails to fortify your network against various threats, ensuring a tailored defense strategy for your specific needs.
-- **Configure IDS/IPS and WAF**: Dive into the configuration of Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and workload-centric Web Application Firewalls (WAFs) to safeguard your cluster from network-based threats.
+- **Customize Security Guardrails**: Discover how to customize security guardrails to fortify your network against various threats.
+- **Configure IDS/IPS and WAF**: Dive into the configuration of Intrusion Detection Systems (IDS), and workload-centric Web Application Firewalls (WAFs) to safeguard your cluster from network-based threats.
 - **Zero-Day Attack Detection**: Learn how to detect zero-day attacks by monitoring suspicious container activity, enabling you to proactively respond to emerging threats.
 - **Security Policy Enforcement**: Preview and enforce security policies to quarantine infected workloads, preventing the spread of threats within your Kubernetes environment.
 - **Visualize Security Posture**: Learn how to effectively visualize the security posture of your Azure AKS cluster, allowing you to identify potential vulnerabilities and weaknesses.
