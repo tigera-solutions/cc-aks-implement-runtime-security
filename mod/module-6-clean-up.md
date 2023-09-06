@@ -21,7 +21,13 @@
      --name $RESOURCE_GROUP
    ```
 
-4. Delete environment variables backup file.
+4. Delete this repo
+
+   ```bash
+   cd .. && rm -Rf cc-aks-implement-runtime-security
+   ```
+
+5. Delete environment variables backup file.
 
    ```bash
    rm ~/workshopvars.env
