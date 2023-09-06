@@ -26,11 +26,11 @@ The estimated time to complete this workshop is 60-90 minutes.
 
 ### Learning Objectives
 
-1. **Customize Security Guardrails**: Discover how to customize security guardrails to fortify your network against various threats, ensuring a tailored defense strategy for your specific needs.
-2. **Configure IDS/IPS and WAF**: Dive into the configuration of Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and workload-centric Web Application Firewalls (WAFs) to safeguard your cluster from network-based threats.
-3. **Zero-Day Attack Detection**: Learn how to detect zero-day attacks by monitoring suspicious container activity, enabling you to proactively respond to emerging threats.
-4. **Security Policy Enforcement**: Preview and enforce security policies to quarantine infected workloads, preventing the spread of threats within your Kubernetes environment.
-5. **Visualize Security Posture**: Learn how to effectively visualize the security posture of your Azure AKS cluster, allowing you to identify potential vulnerabilities and weaknesses.
+- **Customize Security Guardrails**: Discover how to customize security guardrails to fortify your network against various threats, ensuring a tailored defense strategy for your specific needs.
+- **Configure IDS/IPS and WAF**: Dive into the configuration of Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and workload-centric Web Application Firewalls (WAFs) to safeguard your cluster from network-based threats.
+- **Zero-Day Attack Detection**: Learn how to detect zero-day attacks by monitoring suspicious container activity, enabling you to proactively respond to emerging threats.
+- **Security Policy Enforcement**: Preview and enforce security policies to quarantine infected workloads, preventing the spread of threats within your Kubernetes environment.
+- **Visualize Security Posture**: Learn how to effectively visualize the security posture of your Azure AKS cluster, allowing you to identify potential vulnerabilities and weaknesses.
 
 ## Workshop Environment Preparation
 
@@ -54,10 +54,10 @@ The estimated time to complete this workshop is 60-90 minutes.
 This workshop is organized in sequential modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
 
 Module 1 - [Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
-Module 2 - [Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)  
+Module 2 - [Customize Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)  
 Module 3 - [Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  
-Module 4 - [Detect Zero-Day Attacks with Threat Defence](/mod/module-4-threat-defence.md)  
-Module 5 - [Quarantine Infected Workloads and KSPM](/mod/module-5-quarantine-kspm.md)  
+Module 4 - [Zero-Day Attacks Detection with Threat Defence](/mod/module-4-threat-defence.md)  
+Module 5 - [Quarantine Infected Workloads and Visualize KSPM](/mod/module-5-quarantine-kspm.md)  
 Module 6 - [Clean up](/mod/module-6-clean-up.md)  
 
 --- 

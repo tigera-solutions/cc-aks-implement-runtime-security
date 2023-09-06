@@ -104,6 +104,6 @@ When you change the cluster, the Calico Cloud context will change immediately to
 
 --- 
 
-[:arrow_right: Module 2 - Scan Container Images](/mod/module-2-scan-images.md)   <br>
+[:arrow_right: Module 2 - Customize Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)   <br>
 
 [:arrow_left: Back to Main](/README.md)  

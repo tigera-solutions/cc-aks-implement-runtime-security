@@ -99,7 +99,7 @@ Calico Cloud WAF allows you to selectively run service traffic within your clust
 
 --- 
 
-[:arrow_right: Module 6 - Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  <br>
+[:arrow_right: Module 4 - Zero-Day Attacks Detection with Threat Defence](/mod/module-4-threat-defence.md)  <br>
 
-[:arrow_left: Module 4 - Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
+[:arrow_left: Module 2 - Customize Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

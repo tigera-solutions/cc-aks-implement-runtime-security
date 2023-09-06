@@ -1,4 +1,4 @@
-# Module 6 - Runtime Container Thread Defence
+# Module 4 - Zero-Day Attacks Detection with Threat Defence
 
 Calico Cloud provides a threat detection engine that analyzes observed file and process activity to detect known malicious and suspicious activity.
 
@@ -51,7 +51,7 @@ Our threat detection engine also monitors activity within the containers running
 
 --- 
 
-[:arrow_right: Module 7 - Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md)  <br>
+[:arrow_right: Module 5 - Quarantine Infected Workloads and Visualize KSPM](/mod/module-5-quarantine-kspm.md)  <br>
 
-[:arrow_left: Module 5 - Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  
+[:arrow_left: Module 3 - Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

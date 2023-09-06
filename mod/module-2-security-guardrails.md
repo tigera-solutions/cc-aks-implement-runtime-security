@@ -1,4 +1,4 @@
-# Module 2 - Implement zero-trust access controls and micro-segmentation
+# Module 2 - Customize Security Guardrails for Network-based Threats
 
 Calico provides methods to enable fine-grained access controls between your microservices and external databases, cloud services, APIs, and other applications protected by a firewall. You can enforce controls from within the cluster using DNS egress policies from a firewall outside the cluster using the egress gateway. Controls are applied on a fine-grained, per-pod basis.
 
@@ -156,8 +156,8 @@ For more information about tiers, please refer to the Calico Cloud documentation
 
 --- 
 
-[:arrow_right: Module 5 - Clean up](/mod/module-5-clean-up.md)  <br>
+[:arrow_right: Module 3 - Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  <br>
 
-[:arrow_left: Module 3 - Calico Cloud Admission Controller](/mod/module-3-admission-controller.md)    
+[:arrow_left: Module 1 - Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  
 

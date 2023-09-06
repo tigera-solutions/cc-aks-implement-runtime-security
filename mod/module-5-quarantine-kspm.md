@@ -1,4 +1,4 @@
-# Module 7 - Quarantine a Workload and KSPM
+# Module 5 - Quarantine Infected Workloads and Visualize KSPM
 
 ## Quarantine a Workload
 
@@ -65,7 +65,7 @@ Continuous compliance means employing a continual audit that shows what traffic 
 
 --- 
 
-[:arrow_right: Module 8 - Clean up](/modules/module-8-clean-up.md)  <br>
+[:arrow_right: Module 6 - Clean up](/mod/module-6-clean-up.md)  <br>
 
-[:arrow_left: Module 6 - Realtime Container Thread Defence](/modules/module-6-threat-defence.md)  
+[:arrow_left: Module 4 - Zero-Day Attacks Detection with Threat Defence](/mod/module-4-threat-defence.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  
