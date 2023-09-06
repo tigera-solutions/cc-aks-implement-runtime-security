@@ -163,7 +163,7 @@ For more information about tiers, please refer to the Calico Cloud documentation
 
 --- 
 
-[:arrow_right: Module 3 - Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  <br>
+[:arrow_right: Module 3 - Configuring the Workload-Centric WAF](/mod/module-3-waf.md)  <br>
 
 [:arrow_left: Module 1 - Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

@@ -55,7 +55,7 @@ This workshop is organized in sequential modules. One module will build up on to
 
 Module 1 - [Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
 Module 2 - [Customize Security Guardrails for Network-based Threats](/mod/module-2-security-guardrails.md)  
-Module 3 - [Configuring IDS protection and Workload-Centric WAF](/mod/module-3-ids-waf.md)  
+Module 3 - [Configuring the Workload-Centric WAF](/mod/module-3-waf.md)  
 Module 4 - [Zero-Day Attacks Detection with Threat Defence](/mod/module-4-threat-defence.md)  
 Module 5 - [Quarantine Infected Workloads and Visualize KSPM](/mod/module-5-quarantine-kspm.md)  
 Module 6 - [Clean up](/mod/module-6-clean-up.md)  
