@@ -1,8 +1,8 @@
 # Module 2 - Customize Security Guardrails for Network-based Threats
 
-Calico provides methods to enable fine-grained access controls between your microservices and external databases, cloud services, APIs, and other applications protected by a firewall. You can enforce controls from within the cluster using DNS egress policies from a firewall outside the cluster using the egress gateway. Controls are applied on a fine-grained, per-pod basis.
+Calico provides methods to enable fine-grained access controls between microservices and external databases, cloud services, APIs, and other applications.
 
-In this module, we will learn how to use Calico to create network policies to control access to and from a pod. We will install the `Example Voting Application`. Once the application is deployed, we will create and test network security policies with different ingress and egress rules to demonstrate how the **workload access control** is done.
+In this module, we will learn how to use Calico to create network policies to control access to and from a pod. We will install the `Example Voting Application`. Once the application is deployed, we will create and test network security policies with different ingress and egress rules to demonstrate how **workload access control** is done.
 
 1. Installing the example application stacks:
 
