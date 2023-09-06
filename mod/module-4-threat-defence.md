@@ -51,7 +51,7 @@ Our threat detection engine also monitors activity within the containers running
 
    You should be able to see the following security events:
 
-   
+   ![security_events](https://github.com/tigera-solutions/cc-aks-implement-runtime-security/assets/104035488/612893b6-7a46-487d-bb4d-bc9876c5d302)
 
 --- 
 
